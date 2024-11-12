@@ -1,0 +1,25 @@
+.root {
+  border-radius: 12px;
+  background: var(--background-white);
+  overflow: hidden;
+  width: auto;
+  height: auto;
+  display: inline-block;
+  border: 1px solid var(--border-default);
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 3px 16px -4px rgba(51, 40, 36, 0.25);
+  }
+}
+.img1 {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+}
+.div1 {
+  text-align: center;
+  padding-left: var(--space-16);
+  padding: var(--space-16);
+  font-size: var(--text-extra-large-font-size);
+  line-height: var(--text-extra-large-line-height);
+}
